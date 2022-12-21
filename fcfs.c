@@ -55,7 +55,6 @@ int main() {
   }
   avgWaitTime = sumWaitTime / n;
   avgTurnAroundTime = sumTurnaroundTime / n;
-  printf("\nsum %f\n", sumTurnaroundTime);
   avgResponseTime = sumResponseTime / n;
   float througput = (float)time / n;
   printf("avg wait time = %0.3f\navg response time = %0.3f\navg turn around "
